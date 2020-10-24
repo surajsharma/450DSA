@@ -1,6 +1,5 @@
 A = [65, 43, 45, 67, 543]
 
-
 def findMinMaxRec(A, index, mi, ma):
     mi = mi
     ma = ma
