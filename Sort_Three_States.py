@@ -4,7 +4,6 @@ high = [2]
 
 
 def sortThreeStates(A, i,):
-
     if i < 0:
         print(low + mid + high)
         return (low+mid+high)
@@ -18,7 +17,7 @@ def sortThreeStates(A, i,):
     if A[i] == high[0]:
         high.append(A[i])
 
-    sortThreeStates(A[:i], i-1)
+    return sortThreeStates(A[:i], i-1)
 
 
 A = [0, 2, 1, 2, 0, 0, 0, 1, 1, 2, 1, 2, 0, 1, 0, 1]
