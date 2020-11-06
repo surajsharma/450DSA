@@ -1,15 +1,16 @@
-A = [-1, -2, -3, 0, -2, 1, -4, 5, -9, 8]
+A = [1, 2, 3, 0, -1, -2, -3]
 
 
-def sortNegative(A, i):
-    print(A, i)
-    if i <= 0:
+def shiftNegs(A, i):
+    if i >= len(A):
         return A
+
     if A[i] < 0:
-        A[i], A[0] = A[0], A[i]
+        A.remove(A[i])
+        print(A[i], i)
 
-    return sortNegative(A[:i], i-1)
+    return shiftNegs(A, i+1)
 
 
-B = sortNegative(A, len(A)-1)
+B = shiftNegs(A, 0)
 print(B)
