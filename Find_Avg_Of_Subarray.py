@@ -1,10 +1,17 @@
 def find_avg_of_subarray(K, arr):
     result = []
-    for i in range(len(arr)-K+1): #for the array
+
+#    
+#   print(len(arr)-K+1, len(arr), K+1, range(len(arr)-K+1))
+
+    for i in range(len(arr)-K+1): 
+        #for the array
         _sum = 0.0
-        for j in range(i, i+K): #for each subarray
+        for j in range(i, i+K): 
+            #for each subarray
             _sum += arr[j]
-        result.append(_sum/K) #calculate average
+        result.append(_sum/K) 
+        #calculate average
 
     return result
 
