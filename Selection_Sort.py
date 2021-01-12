@@ -1,4 +1,4 @@
-A = [23, 3, 45, 4, 56, 4, 5, 6, 5, 6, 7, 8]
+A = [99, 0, 23, 3, 45, 4, 56, 4, 5, 6, 5, 6, 7, 8]
 
 def sortAnArray(A):
     # Traverse through all array elements
