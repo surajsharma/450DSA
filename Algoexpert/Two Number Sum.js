@@ -16,7 +16,7 @@ function twoNumberSum(array, targetSum) {
 	return nums
 }
 
-//let pa = twoNumberSum([1,2,3,4,5,9,0], 9)
-//pa = twoNumberSum([3,5,-4,8,11,1,-1,6], 10)
-let pa = twoNumberSum([4, 6, 1], 5)
-console.log(pa)
+// let pa = twoNumberSum([1,2,3,4,5,9,0], 9)
+// pa = twoNumberSum([3,5,-4,8,11,1,-1,6], 10)
+// let pa = twoNumberSum([4, 6, 1], 5)
+// console.log(pa)
